@@ -1,0 +1,71 @@
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: var(--third-color);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  margin: 0 5px;
+  transition: transform 0.2s ease;
+}
+
+.btn-press {
+  padding: 10px 22px;
+  background-color: var(--secondary-color);
+}
+
+.btn-press:hover,
+.btn-signin:hover {
+  color: orange;
+  transform: scale(1.05);
+}
+
+.btn-signup {
+  border-radius: 4px;
+  background-color: #26abba;
+  font-weight: bold;
+  padding: 6px 25px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 3px black;
+  transition: 0.1s ease-in-out;
+}
+
+.btn-learn {
+  border-radius: 4px;
+  background-color: #ffffff;
+  color: #000;
+  font-weight: bold;
+  padding: 6px 35px;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 3px black;
+  transition: 0.2s ease-in-out;
+}
+
+.btn-signup:hover,
+.btn-learn:hover {
+  transform: translateY(-5px);
+  box-shadow: 2px 4px 5px black;
+}
