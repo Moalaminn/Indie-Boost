@@ -1,49 +1,141 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles/utilities.css" />
     <link rel="stylesheet" href="styles/style.css" />
     <link rel="stylesheet" href="styles/mobile.css" />
-    <link rel="stylesheet" href="styles/utilities.css" />
     <title>Indie Boost</title>
-  </head>
-  <body>
+</head>
+
+<body>
     <!-- Navigation Bar -->
     <div class="navbar">
-      <div class="container flex">
-        <div class="logo">
-          <a href="#"
-            ><img src="/img/indieboost-logo.svg" alt="Indie Boost"
-          /></a>
+        <div class="container flex">
+            <div class="logo">
+                <a href="#"><img src="/img/indieboost-logo.svg" alt="Indie Boost" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="btn btn-press">Press & Credators</a></li>
+                    <li><a href="#" class="btn btn-signin">Sign In</a></li>
+                </ul>
+            </nav>
         </div>
-        <nav>
-          <ul>
-            <li><a href="#" class="btn btn-press">Press & Credators</a></li>
-            <li><a href="#" class="btn btn-signin">Sign In</a></li>
-          </ul>
-        </nav>
-      </div>
     </div>
     <!-- Nav End -->
 
     <!-- Showcase Section -->
     <section class="showcase">
-      <div class="container grid">
-        <div class="showcase-text">
-          <h1>Get your game discovered</h1>
-          <h2>Publishers & Developers</h2>
-          <p>
-            Create a free game page visible to thousands of verified Press,
-            YouTubers and Streamers, in minutes by signing up below. All your
-            outreach in one place.
-          </p>
-          <a href="#" class="btn btn-signup">Sign Up</a>
-          <a href="#" class="btn btn-learn">Learn More</a>
+        <div class="container grid">
+            <div class="showcase-text">
+                <h1>Get your game discovered</h1>
+                <h2>Publishers & Developers</h2>
+                <p>
+                    Create a free game page visible to thousands of verified Press,
+                    YouTubers and Streamers, in minutes by signing up below. All your
+                    outreach in one place.
+                </p>
+                <a href="#" class="btn btn-signup">Sign Up</a>
+                <a href="#" class="btn btn-learn">Learn More</a>
+            </div>
+            <img src="/img/homepage-whyjoin.jpeg" alt="Why Join" />
         </div>
-        <img src="/img/homepage-whyjoin.jpeg" alt="Why Join" />
-      </div>
     </section>
-  </body>
+
+    <!-- Section Logos -->
+    <section class="logos">
+        <div class="container flex">
+            <img src="img/logos/company_logo_enmasse-1.png" alt="" />
+            <img src="img/logos/company_logo_tinybuild-2.png" alt="" />
+            <img src="img/logos/company_logo_1c-3.png" alt="" />
+            <img src="img/logos/company_logo_crytek-4.png" alt="" />
+            <img src="img/logos/company_logo_xsolla-5.png" alt="" />
+            <img src="img/logos/company_logo_super-6.png" alt="" />
+            <img src="img/logos/company_logo_whisper-7.png" alt="" />
+            <img src="img/logos/company_logo_netflix-8.png" alt="" />
+            <img src="img/logos/company_logo_playdigious-9.png" alt="" />
+            <img src="img/logos/company_logo_schellgames-10.png" alt="" />
+            <img src="img/logos/company_logo_playmobil-11.png" alt="" />
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="features-title container flex pt-4">
+            <h2>All your marketing on one dashboard</h2>
+        </div>
+        <div class="features-content">
+            <div class="container grid grid-template-1">
+                <img src="img/animation-boost.gif" alt="" />
+
+                <div class="showcase-text">
+                    <h1>Access Media & Content Creators</h1>
+                    <p>
+                        Access highly curated and verified game journalists and
+                        influencers. Using smart algorithms Indie Boost automatically
+                        generates your press release and distributes it to those most
+                        likely to cover your game
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="features-content">
+            <div class="container grid grid-reversed grid-template-2">
+                <img src="img/animation-gamepage.gif" alt="" />
+                <div class="showcase-text">
+                    <h1>Create your Game Page</h1>
+                    <p>
+                        Set up an Indie Boost game page and increased discoverability,
+                        feature your page to thousands of top-tier journalists and
+                        tastemakers on the platform. Market your game from one easy to
+                        use dashboard
+                    </p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="features-content">
+            <div class="container grid grid-template-1">
+                <img src="img/animation-report.gif" alt="" />
+                <div class="showcase-text">
+                    <h1>Get Detailed Reporting</h1>
+                    <p>
+                        Access live reporting, track conversion to your store pages, track interaction and open rates.
+                        Get updates on each game copy that gets requested.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <section class="break py-4"></section>
+    </section>
+
+    <!-- Game Section -->
+    <section class="game-section">
+        <div class="container grid">
+            <div class="game-nav grid">
+                <div class="buttons">
+                    <button class="tablinks">Game Page</button>
+                    <button class="tablinks">Media Boost</button>
+                    <button class="tablinks">Influencer Boost</button>
+                    <button class="tablinks">Reporting</button>
+                </div>
+                <div class="game-content">
+                    <div class="blue-stroke"></div>
+                    <p>Boost your visibility by creating a game page that is automatically featured to thousands of
+                        media and influencers interested in your genre of game. The game page is a one stop shop for
+                        anyone interested in covering your game, requesting a review code, subscribing to updates or
+                        setting up a developer interview</p>
+                </div>
+            </div>
+            <div class="active-video">
+                <video src="/img/platform-gamepage.mp4"></video>
+            </div>
+        </div>
+    </section>
+</body>
+
 </html>

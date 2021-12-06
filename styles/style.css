@@ -94,3 +94,78 @@ ul {
   margin: 20px 0;
   font-size: 17px;
 }
+
+/* Logos */
+
+.logos .flex {
+  flex-wrap: wrap;
+}
+
+.logos {
+  padding: 10px;
+}
+
+.logos img {
+  padding: 20px;
+}
+
+/* Features */
+
+.features {
+  background-image: url("/img/bg-featuresection.png");
+  background-size: 100% 100%;
+}
+
+.features-title h2 {
+  font-weight: 400;
+  font-size: 32px;
+}
+
+.features img {
+  max-width: 100%;
+  padding: 0px 15px;
+  align-self: start;
+}
+
+.features .showcase-text {
+  padding: 0px 15px;
+  align-self: end;
+}
+
+.features .showcase-text p {
+  margin-bottom: 0;
+}
+
+.features-content-1 {
+  padding: 15px 0px;
+}
+
+.features-content {
+  padding: 30px 0px;
+}
+
+/* Button nav */
+
+.game-section {
+  padding: 15px 15px;
+  background-image: url(/img/homepage-bg.jpeg);
+}
+
+.game-nav .tablinks {
+  display: inline-block;
+  background-color: #272627;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid #565656;
+  font-size: 22px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  font-weight: 100;
+  width: 100%;
+}
+
+.game-section video {
+  width: 95%;
+}
