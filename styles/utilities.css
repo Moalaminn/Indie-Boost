@@ -11,6 +11,11 @@
   height: 100%;
 }
 
+.break {
+  flex-basis: 100%;
+  height: 0;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -31,6 +36,11 @@
 
 .grid-template-2 {
   grid-template-columns: 45% 55%;
+  gap: 0;
+}
+
+.grid-template-5 {
+  grid-template-columns: repeat(5, 1fr);
   gap: 0;
 }
 

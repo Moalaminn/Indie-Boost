@@ -97,7 +97,8 @@ ul {
 
 /* Logos */
 
-.logos .flex {
+.logos .flex,
+.creator .flex {
   flex-wrap: wrap;
 }
 
@@ -113,7 +114,7 @@ ul {
 
 .features {
   background-image: url("/img/bg-featuresection.png");
-  background-size: 100% 100%;
+  background-size: cover;
 }
 
 .features-title h2 {
@@ -146,9 +147,15 @@ ul {
 
 /* Button nav */
 
-.game-section {
-  padding: 15px 15px;
+.game-section .container {
+  padding: 50px 15px;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.bg {
   background-image: url(/img/homepage-bg.jpeg);
+  background-repeat: repeat;
+  background-size: cover;
 }
 
 .game-nav .tablinks {
@@ -159,13 +166,112 @@ ul {
   padding: 10px;
   text-decoration: none;
   border: 1px solid #565656;
-  font-size: 22px;
+  font-size: 18px;
   cursor: pointer;
-  margin-bottom: 15px;
+  margin: 0px 0px 15px 20px;
   font-weight: 100;
-  width: 100%;
+  width: 90%;
+  font-family: inherit;
+  transition-duration: 0.4s;
+}
+
+.game-nav .active-btn {
+  background-color: #58bae3;
+  border: 1px solid #58bae3;
+}
+
+.game-nav .tablinks:hover {
+  background-color: #58bae3;
+  border: 1px solid #58bae3;
 }
 
 .game-section video {
   width: 95%;
+}
+
+.game-content {
+  border: 1px solid #565656;
+  padding: 15px;
+  display: inline-block;
+}
+
+.game-section .grid {
+  align-items: start;
+}
+
+/* Creator Section */
+
+.creator .container {
+  max-width: 1100px;
+  padding: 15px;
+}
+
+.creator-content {
+  margin: 10px;
+  text-align: center;
+  transition: transform 0.2s ease-in-out;
+}
+
+.creator-content:hover {
+  transform: scale(1.03);
+}
+
+.creator-content img {
+  width: 75%;
+  height: 75%;
+}
+
+.creator-content h3,
+.creator-content a {
+  font-weight: 100;
+  font-size: 15px;
+  color: #000;
+}
+
+.creator .flex {
+  gap: 5px 30px;
+}
+
+.creator-title {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.creator-title h1 {
+  font-size: 20px;
+  color: #26abba;
+}
+
+/* Pricing */
+
+.pricing {
+  background-color: var(--primary-color);
+  padding: 20px;
+}
+
+.heading {
+  text-align: center;
+  line-height: 1;
+  margin: 15px 0px 50px 0px;
+}
+
+.heading p {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.yellow {
+  color: yellow;
+  margin: 5px;
+}
+
+.green {
+  color: greenyellow;
+  margin: 5px;
+}
+
+.price {
+  text-align: center;
+  border: 1px solid #000;
 }
