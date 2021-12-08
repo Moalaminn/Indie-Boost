@@ -120,14 +120,14 @@
             <div class="container grid">
                 <div class="game-nav grid">
                     <div class="buttons">
-                        <button class="tablinks active-btn">Game Page</button>
-                        <button class="tablinks">Media Boost</button>
-                        <button class="tablinks">Influencer Boost</button>
-                        <button class="tablinks">Reporting</button>
+                        <button class="tablinks link1 active-btn" onclick="gamePage()" >Game Page</button>
+                        <button class="tablinks link2" onclick="mediaBoost()">Media Boost</button>
+                        <button class="tablinks link3" onclick="influencerBoost()">Influencer Boost</button>
+                        <button class="tablinks link4" onclick="reporting()">Reporting</button>
                     </div>
                     <div class="game-content">
                         <div class="blue-stroke"></div>
-                        <p>Boost your visibility by creating a game page that is automatically featured to thousands of
+                        <p class="game-text">Boost your visibility by creating a game page that is automatically featured to thousands of
                             media and influencers interested in your genre of game. The game page is a one stop shop for
                             anyone interested in covering your game, requesting a review code, subscribing to updates or
                             setting up a developer interview</p>
@@ -260,6 +260,7 @@
             </div>
         </div>
     </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="main.js"></script>
 </body>
 

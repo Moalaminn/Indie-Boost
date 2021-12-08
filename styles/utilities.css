@@ -181,3 +181,13 @@
 .pt-4 {
   padding-top: 3rem;
 }
+
+.yellow {
+  color: yellow;
+  margin: 5px;
+}
+
+.green {
+  color: greenyellow;
+  margin: 5px;
+}

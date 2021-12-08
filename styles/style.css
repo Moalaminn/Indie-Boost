@@ -199,6 +199,14 @@ ul {
   align-items: start;
 }
 
+.blue-stroke {
+  height: 7px;
+  width: 25%;
+  background-color: #58bae3;
+  margin-bottom: 15px;
+  transition: 300ms linear;
+}
+
 /* Creator Section */
 
 .creator .container {
@@ -259,16 +267,6 @@ ul {
 
 .heading p {
   font-family: "Titillium Web", sans-serif;
-}
-
-.yellow {
-  color: yellow;
-  margin: 5px;
-}
-
-.green {
-  color: greenyellow;
-  margin: 5px;
 }
 
 .price {
