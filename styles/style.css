@@ -65,7 +65,11 @@ ul {
   background-color: var(--primary-color);
   color: #fff;
   position: relative;
-  height: 450px;
+  height: auto;
+}
+
+.showcase .container {
+  padding-bottom: 50px;
 }
 
 .showcase img {
